@@ -1,0 +1,11 @@
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\Personnel.mdf
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\Personnel_log.ldf
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\PersonnelDB.dll.config
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\PersonnelDB.dll
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\PersonnelDB.pdb
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\EntityFramework.dll
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\EntityFramework.xml
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\obj\Debug\PersonnelDB.dll
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\PersonnelDB\PersonnelDB\obj\Debug\PersonnelDB.pdb
