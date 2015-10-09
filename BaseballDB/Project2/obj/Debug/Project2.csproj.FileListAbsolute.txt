@@ -32,3 +32,6 @@ D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\Project2\obj\Debug\Proje
 D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\Project2\obj\Debug\Project2.DisplayBaseballTable.resources
 D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\Project2\obj\Debug\Project2.Properties.Resources.resources
 D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\Project2\obj\Debug\Project2.csproj.GenerateResource.Cache
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\Home2\BaseballDB\Project2\bin\Debug\Project2.exe.config
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\Home2\BaseballDB\Project2\obj\Debug\Project2.exe
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\Home2\BaseballDB\Project2\obj\Debug\Project2.pdb

@@ -32,17 +32,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DisplayBaseballTable));
             this.playerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.playerBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.playerBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.playerDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -50,21 +50,21 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grpBoxSearch = new System.Windows.Forms.GroupBox();
-            this.panelTop = new System.Windows.Forms.Panel();
             this.panelBttm = new System.Windows.Forms.Panel();
-            this.lblMin = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnViewAll = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.txtBoxMin = new System.Windows.Forms.TextBox();
             this.txtBoxMax = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panelTop = new System.Windows.Forms.Panel();
+            this.txtBoxMin = new System.Windows.Forms.TextBox();
+            this.btnViewAll = new System.Windows.Forms.Button();
+            this.lblMin = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.playerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerBindingNavigator)).BeginInit();
             this.playerBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.playerDataGridView)).BeginInit();
             this.grpBoxSearch.SuspendLayout();
-            this.panelTop.SuspendLayout();
             this.panelBttm.SuspendLayout();
+            this.panelTop.SuspendLayout();
             this.SuspendLayout();
             // 
             // playerBindingSource
@@ -98,9 +98,34 @@
             this.playerBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.playerBindingNavigator.Name = "playerBindingNavigator";
             this.playerBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.playerBindingNavigator.Size = new System.Drawing.Size(441, 25);
+            this.playerBindingNavigator.Size = new System.Drawing.Size(444, 25);
             this.playerBindingNavigator.TabIndex = 0;
             this.playerBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -134,16 +159,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -166,26 +184,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // playerBindingNavigatorSaveItem
             // 
@@ -209,7 +209,7 @@
             this.playerDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.playerDataGridView.Location = new System.Drawing.Point(0, 25);
             this.playerDataGridView.Name = "playerDataGridView";
-            this.playerDataGridView.Size = new System.Drawing.Size(441, 295);
+            this.playerDataGridView.Size = new System.Drawing.Size(444, 296);
             this.playerDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -241,23 +241,11 @@
             this.grpBoxSearch.Controls.Add(this.panelBttm);
             this.grpBoxSearch.Controls.Add(this.panelTop);
             this.grpBoxSearch.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpBoxSearch.Location = new System.Drawing.Point(0, 255);
+            this.grpBoxSearch.Location = new System.Drawing.Point(0, 256);
             this.grpBoxSearch.Name = "grpBoxSearch";
-            this.grpBoxSearch.Size = new System.Drawing.Size(441, 65);
+            this.grpBoxSearch.Size = new System.Drawing.Size(444, 65);
             this.grpBoxSearch.TabIndex = 2;
             this.grpBoxSearch.TabStop = false;
-            // 
-            // panelTop
-            // 
-            this.panelTop.Controls.Add(this.txtBoxMin);
-            this.panelTop.Controls.Add(this.btnViewAll);
-            this.panelTop.Controls.Add(this.lblMin);
-            this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Location = new System.Drawing.Point(3, 16);
-            this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(435, 22);
-            this.panelTop.TabIndex = 0;
-            this.panelTop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTop_Paint);
             // 
             // panelBttm
             // 
@@ -267,19 +255,28 @@
             this.panelBttm.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelBttm.Location = new System.Drawing.Point(3, 41);
             this.panelBttm.Name = "panelBttm";
-            this.panelBttm.Size = new System.Drawing.Size(435, 21);
+            this.panelBttm.Size = new System.Drawing.Size(438, 21);
             this.panelBttm.TabIndex = 1;
             // 
-            // lblMin
+            // txtBoxMax
             // 
-            this.lblMin.AutoSize = true;
-            this.lblMin.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMin.Location = new System.Drawing.Point(0, 0);
-            this.lblMin.Name = "lblMin";
-            this.lblMin.Size = new System.Drawing.Size(179, 18);
-            this.lblMin.TabIndex = 0;
-            this.lblMin.Text = "Minimum Batting Average:";
+            this.txtBoxMax.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtBoxMax.Location = new System.Drawing.Point(183, 0);
+            this.txtBoxMax.Name = "txtBoxMax";
+            this.txtBoxMax.Size = new System.Drawing.Size(180, 20);
+            this.txtBoxMax.TabIndex = 3;
+            this.txtBoxMax.Text = "1.000";
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSearch.Location = new System.Drawing.Point(363, 0);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 21);
+            this.btnSearch.TabIndex = 2;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label2
             // 
@@ -292,27 +289,17 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Maximum Batting Average:";
             // 
-            // btnViewAll
+            // panelTop
             // 
-            this.btnViewAll.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnViewAll.Location = new System.Drawing.Point(360, 0);
-            this.btnViewAll.Name = "btnViewAll";
-            this.btnViewAll.Size = new System.Drawing.Size(75, 22);
-            this.btnViewAll.TabIndex = 1;
-            this.btnViewAll.Text = "View All";
-            this.btnViewAll.UseVisualStyleBackColor = true;
-            this.btnViewAll.Click += new System.EventHandler(this.btnViewAll_Click);
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSearch.Location = new System.Drawing.Point(360, 0);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 21);
-            this.btnSearch.TabIndex = 2;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            this.panelTop.Controls.Add(this.txtBoxMin);
+            this.panelTop.Controls.Add(this.btnViewAll);
+            this.panelTop.Controls.Add(this.lblMin);
+            this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTop.Location = new System.Drawing.Point(3, 16);
+            this.panelTop.Name = "panelTop";
+            this.panelTop.Size = new System.Drawing.Size(438, 22);
+            this.panelTop.TabIndex = 0;
+            this.panelTop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTop_Paint);
             // 
             // txtBoxMin
             // 
@@ -320,27 +307,41 @@
             this.txtBoxMin.Location = new System.Drawing.Point(179, 0);
             this.txtBoxMin.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.txtBoxMin.Name = "txtBoxMin";
-            this.txtBoxMin.Size = new System.Drawing.Size(181, 20);
+            this.txtBoxMin.Size = new System.Drawing.Size(184, 20);
             this.txtBoxMin.TabIndex = 2;
             this.txtBoxMin.Text = "0.000";
             // 
-            // txtBoxMax
+            // btnViewAll
             // 
-            this.txtBoxMax.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBoxMax.Location = new System.Drawing.Point(183, 0);
-            this.txtBoxMax.Name = "txtBoxMax";
-            this.txtBoxMax.Size = new System.Drawing.Size(177, 20);
-            this.txtBoxMax.TabIndex = 3;
-            this.txtBoxMax.Text = "1.000";
+            this.btnViewAll.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnViewAll.Location = new System.Drawing.Point(363, 0);
+            this.btnViewAll.Name = "btnViewAll";
+            this.btnViewAll.Size = new System.Drawing.Size(75, 22);
+            this.btnViewAll.TabIndex = 1;
+            this.btnViewAll.Text = "View All";
+            this.btnViewAll.UseVisualStyleBackColor = true;
+            this.btnViewAll.Click += new System.EventHandler(this.btnViewAll_Click);
+            // 
+            // lblMin
+            // 
+            this.lblMin.AutoSize = true;
+            this.lblMin.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMin.Location = new System.Drawing.Point(0, 0);
+            this.lblMin.Name = "lblMin";
+            this.lblMin.Size = new System.Drawing.Size(179, 18);
+            this.lblMin.TabIndex = 0;
+            this.lblMin.Text = "Minimum Batting Average:";
             // 
             // DisplayBaseballTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 320);
+            this.ClientSize = new System.Drawing.Size(444, 321);
             this.Controls.Add(this.grpBoxSearch);
             this.Controls.Add(this.playerDataGridView);
             this.Controls.Add(this.playerBindingNavigator);
+            this.MinimumSize = new System.Drawing.Size(460, 360);
             this.Name = "DisplayBaseballTable";
             this.Text = "Baseball Players";
             this.Load += new System.EventHandler(this.DisplayBaseballTable_Load);
@@ -350,10 +351,10 @@
             this.playerBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.playerDataGridView)).EndInit();
             this.grpBoxSearch.ResumeLayout(false);
-            this.panelTop.ResumeLayout(false);
-            this.panelTop.PerformLayout();
             this.panelBttm.ResumeLayout(false);
             this.panelBttm.PerformLayout();
+            this.panelTop.ResumeLayout(false);
+            this.panelTop.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
