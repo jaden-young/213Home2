@@ -21,3 +21,4 @@ D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\BaseballDB\bin\Debug\Ent
 D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\BaseballDB\bin\Debug\EntityFramework.SqlServer.xml
 D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\BaseballDB\obj\Debug\BaseballDB.dll
 D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\BaseballDB\obj\Debug\BaseballDB.pdb
+D:\Users\Jaden\Documents\NDSU\CSCI 213\Home2\BaseballDB\BaseballDB\obj\Debug\BaseballDB.csprojResolveAssemblyReference.cache
