@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseballDB", "BaseballDB\BaseballDB.csproj", "{789C0954-B9A8-42AD-83CA-AC10FA22BDDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "BaseballDisplay\Project1.csproj", "{02055DD2-E565-46AB-9E54-85E09F796B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{C1D9E5E6-93A2-4C6F-ADAB-E156AFF0B798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{789C0954-B9A8-42AD-83CA-AC10FA22BDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789C0954-B9A8-42AD-83CA-AC10FA22BDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789C0954-B9A8-42AD-83CA-AC10FA22BDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789C0954-B9A8-42AD-83CA-AC10FA22BDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02055DD2-E565-46AB-9E54-85E09F796B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02055DD2-E565-46AB-9E54-85E09F796B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02055DD2-E565-46AB-9E54-85E09F796B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02055DD2-E565-46AB-9E54-85E09F796B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D9E5E6-93A2-4C6F-ADAB-E156AFF0B798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D9E5E6-93A2-4C6F-ADAB-E156AFF0B798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D9E5E6-93A2-4C6F-ADAB-E156AFF0B798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D9E5E6-93A2-4C6F-ADAB-E156AFF0B798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
